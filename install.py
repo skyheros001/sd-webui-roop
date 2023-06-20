@@ -5,6 +5,8 @@ import sys
 from tqdm import tqdm
 import urllib.request
 
+sys.stdout.reconfigure(encoding='utf-8')
+
 req_file = os.path.join(os.path.dirname(os.path.realpath(__file__)), "requirements.txt")
 
 models_dir = os.path.abspath("models/roop")
