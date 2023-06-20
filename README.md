@@ -10,8 +10,8 @@ venv\Scripts\activate.bat
 并手动安装依赖
 + insightface==0.7.3
 + onnx==1.14.0
-去掉 onnxruntime==1.15.0
-增加 onnxruntime==1.13.1
++ 去掉 onnxruntime==1.15.0
++ 增加 onnxruntime==1.13.1
 + opencv-python==4.7.0.72
 + ifnude
 + cython
