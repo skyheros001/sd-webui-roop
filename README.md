@@ -1,8 +1,9 @@
 # 分支 本地安装因为一直提示安装不上，所以手动修改了一下，
 install.py
 + sys.stdout.reconfigure(encoding='utf-8')
+
 requirements.txt
-清空内容，仅加上
++ 清空内容，仅加上
 + insightface==0.7.3
 
 然后手动进入虚拟环境
