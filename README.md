@@ -1,4 +1,4 @@
-# 分支 本地安装因为一直提示安装不上，所以手动修改了一下，
+# 分支 windows10本地安装因为一直提示安装不上，所以手动修改了一下，
 install.py
 + sys.stdout.reconfigure(encoding='utf-8')
 
