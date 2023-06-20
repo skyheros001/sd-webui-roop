@@ -45,10 +45,6 @@ with open(req_file) as file:
                     print(
                         f"Install {package}, {installed_version} vs {package_version}"
                     )
-                    launch.run_pip(
-                        f"install {package}",
-                        f"sd-webui-roop requirement: changing {package_name} version from {installed_version} to {package_version}",
-                    )
 
         except Exception as e:
             print(e)
