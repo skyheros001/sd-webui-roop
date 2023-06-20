@@ -17,6 +17,8 @@ venv\Scripts\activate.bat
 + ifnude
 + cython
 
+最后
+再在扩展里面安装该插件，from url。
 说明：把onnxruntime从1.15换到1.13.1的原因是rembg 2.0.30 requires onnxruntime~=1.13.1,
 如果还有其它插件的依赖冲突具体看说明来进行更新和安装。
 
