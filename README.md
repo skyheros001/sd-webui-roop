@@ -1,3 +1,28 @@
+# 分支 本地安装因为一直提示安装不上，所以手动修改了一下，
+install.py
++ sys.stdout.reconfigure(encoding='utf-8')
+requirements.txt
+清空内容，仅加上
++ insightface==0.7.3
+
+然后手动进入虚拟环境
+venv\Scripts\activate.bat
+并手动安装依赖
++ insightface==0.7.3
++ onnx==1.14.0
+- onnxruntime==1.15.0
++ onnxruntime==1.13.1
++ opencv-python==4.7.0.72
++ ifnude
++ cython
+
+说明：把onnxruntime从1.15换到1.13.1的原因是rembg 2.0.30 requires onnxruntime~=1.13.1,
+如果还有其它插件的依赖冲突具体看说明来进行更新和安装。
+
+备注建议其它依赖版本号
+protobuf==3.20.2
+open-clip-torch==2.5.0
+
 # roop for StableDiffusion
 
 This is an extension for StableDiffusion's [AUTOMATIC1111 web-ui](https://github.com/AUTOMATIC1111/stable-diffusion-webui/) that allows face-replacement in images. It is based on [roop](https://github.com/s0md3v/roop) but will be developed seperately.
