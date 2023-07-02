@@ -18,7 +18,7 @@ import os
 
 
 def get_models():
-    models = glob.glob(models_path)
+    #models = glob.glob(models_path)
     models_path = os.path.join(scripts.basedir(), "models/roop/*")
     models += glob.glob(models_path)
     models = [x for x in models if x.endswith(".onnx") or x.endswith(".pth")]
